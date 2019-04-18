@@ -6,7 +6,7 @@ paramiko>=1.16.0
 pyyaml>=3.11
 s3fs>=0.0.2
 progressbar-latest
-enum34
+enum34; python_version < '3.4'
 requests
 xmltodict
 logutils
